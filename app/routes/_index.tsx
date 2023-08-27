@@ -2,7 +2,7 @@ import type { V2_MetaFunction } from "@remix-run/cloudflare";
 
 export const meta: V2_MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "NextUI Sandbox" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
@@ -10,7 +10,7 @@ export const meta: V2_MetaFunction = () => {
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
+      <h1>Welcome to NextUI Sandbox</h1>
       <ul>
         <li>
           <a
