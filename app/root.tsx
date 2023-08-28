@@ -25,13 +25,13 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="light text-foreground bg-background">
         <NextUIProvider>
           <Outlet />
+          <ScrollRestoration />
+          <Scripts />
+          <LiveReload />
         </NextUIProvider>
-        <ScrollRestoration />
-        <Scripts />
-        <LiveReload />
       </body>
     </html>
   );
