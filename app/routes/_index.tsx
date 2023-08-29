@@ -8,6 +8,7 @@ import {
   CardHeader,
   Divider,
   Image,
+  Input,
   Link,
 } from "@nextui-org/react";
 
@@ -39,6 +40,14 @@ export default function Index() {
         <Divider />
         <CardBody>
           <p>Make beautiful websites regardless of your design experience.</p>
+          <Input
+            type="email"
+            variant="bordered"
+            label="Email"
+            labelPlacement="inside"
+            validationState="invalid"
+            errorMessage="Please enter a valid email"
+          />
         </CardBody>
         <Divider />
         <CardFooter className="">
